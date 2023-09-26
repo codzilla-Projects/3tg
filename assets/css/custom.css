@@ -1,0 +1,163 @@
+/* Add here all your CSS customizations */
+
+/*
+#header .header-row{
+    padding: 0px 30px;
+}
+*/
+
+
+.page-header.page-header-classic {
+    padding: 30px 30px 0 30px;
+}
+
+
+ul#mainNav li.dropdown-menu.menu-item-has-children{
+	display: block;
+    float: unset;
+    position: relative;
+    background-color: transparent;
+    background-clip: unset;
+    border: unset;
+    padding: unset;
+    margin: unset;
+    left: unset;
+    top: unset;
+    min-width: auto;
+}
+
+
+ul#mainNav li.dropdown-menu.menu-item-has-children .sub-menu{
+	display:none;
+    background: #fff;
+    padding: 10px;
+    transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    position: absolute;
+    top: 100%;
+    
+}
+ul#mainNav li.dropdown-menu.menu-item-has-children:hover .sub-menu,
+ul#mainNav li.dropdown-menu.menu-item-has-children:focus .sub-menu{
+	display:block;
+    transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    
+}
+ul#mainNav li.dropdown-menu.menu-item-has-children .sub-menu li:hover,ul#mainNav li.dropdown-menu.menu-item-has-children .sub-menu li:hover{
+	background: unset!important;
+}
+ul#mainNav li.dropdown-menu.menu-item-has-children .sub-menu li a{
+	color:#000;
+	font-size: 12px;
+	font-weight: 600;
+}
+ul#mainNav li.dropdown-menu.menu-item-has-children .sub-menu li a:hover,ul#mainNav li.dropdown-menu.menu-item-has-children .sub-menu li a:focus{
+	color: #0774ab;
+	text-decoration: unset;
+	background: unset;
+}
+
+
+form.wpcf7-form.init input,form.wpcf7-form.init textarea{
+	border: 1px solid #ccc;
+}
+form.wpcf7-form.init input:focus,form.wpcf7-form.init textarea:focus{
+	border: 1px solid #27aae1;
+	border-radius: unset;
+}
+
+
+
+
+input[type="submit" i] {
+    
+    background-color: #0088CC;
+    border-color: #0088CC #0088CC #006699;
+    color: #FFF!important;
+    border: unset!important;
+    padding: 11px 30px;
+    border-radius: 6px;
+}
+
+input[type="submit" i]:hover {
+    background-color: #00a1f2!important;
+    border-color: #00aaff #00aaff #00a1f2;
+    color: #FFF;
+    border: unset!important;
+}
+
+
+.call-to-action.call-to-action-in-footer {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+}
+
+.list.list-icons div.textwidget.custom-html-widget{
+    margin-left:50px;
+    padding-top:4px;
+}
+
+
+#footer{
+    margin-top: 0px!important;
+}
+
+.wpcf7-form label{
+    display: block;
+    width: 75%;
+}
+
+.wpcf7-form label .wpcf7-form-control{
+    display: block;
+    width: 100%;
+}
+
+#header .header-nav-top .nav > li > span a {
+    color: #999;
+    
+}
+
+
+div.header-container.container{padding: 0px 100px;}
+div.card.card-default{margin-bottom:75px;}
+
+@media (min-width: 1200px){
+.container{max-width:94%!important;}
+}
+@media (min-width: 768px){
+	.container{max-width:97%!important;}
+	.d-md-block { margin-left: 10px!important;}
+   
+}
+
+@media (min-width: 576px){
+	.container{max-width:100%!important;}
+    
+    #header .header-row{padding: 0px 5px;}
+    
+    
+
+}
+
+
+@media (max-width: 575px){
+    
+    #header .header-row{padding: 0px 5px;}
+    
+  
+    
+}
+
+@media (max-width: 991px){
+	
+	div.header-container.container{padding: 0px 40px;}
+
+    section.vc_section.call-to-action.call-to-action-default.with-button-arrow.content-align-center.call-to-action-in-footer{display: none;}
+    aside.sidebar.mt-2{display:none;}
+}
